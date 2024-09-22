@@ -1,6 +1,5 @@
-import React from 'react';
-import { home_data } from "../config/constants";
-
+import React from 'react'
+import { home_data } from "../../../modules/Home/config/constants";
 const Work_process = () => {
     const { work_process } = home_data;
 

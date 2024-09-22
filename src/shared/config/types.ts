@@ -57,3 +57,13 @@ export type ServiceCardProps = {
     link: string;
   };
 };
+export interface ButtonData {
+  text: string;
+  link: string;
+}
+
+export interface GetTouchData {
+  title: string;
+  description: string;
+  button: ButtonData;
+}

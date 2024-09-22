@@ -1,9 +1,12 @@
-export default function AboutPage() {
+import Repair_Service from '@modules/Repair_Service'
+import React from 'react'
+
+const repair_Service = () => {
   return (
     <>
-      <div className="min-h-[100vh] flex justify-center items-center">
-        <p className="text-3xl">Repair Services page</p>
-      </div>
+      <Repair_Service/>
     </>
-  );
+  )
 }
+
+export default repair_Service

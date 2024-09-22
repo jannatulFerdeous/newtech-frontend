@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import { navDataTypes, ServiceCardProps, singleMenuTypes } from "./types";
+import { GetTouchData, navDataTypes, ServiceCardProps, singleMenuTypes } from "./types";
 import d_link from "../../../public/d-link.png";
 import msi from "../../../public/msi.png";
 import acer from "../../../public/acer.png";
@@ -167,6 +167,15 @@ export const  serviceCard : ServiceCardProps = {
   ],
   button: {
     text: "Learn More",
+    link: "#",
+  },
+};
+
+export const GetTouch_data: GetTouchData = {
+  title: "Let’s Get in Touch",
+  description: "Tell us about your biggest IT challenge, we want to help you solve it!",
+  button: {
+    text: "GET STARTED NOW",
     link: "#",
   },
 };

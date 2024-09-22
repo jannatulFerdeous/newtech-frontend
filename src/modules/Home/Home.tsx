@@ -6,7 +6,8 @@ import Latest_Blog from "./partials/Latest_Blog";
 
 import Our_Service from "./partials/Our_Service";
 import Welcome_sec from "./partials/Welcome_sec";
-import Work_process from "./partials/Work_process";
+import Work_process from "@components/Work Process/Work_process";
+
 
 const Home = () => {
   return (
