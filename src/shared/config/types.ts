@@ -43,3 +43,17 @@ export interface navDataTypes extends singleMenuTypes {
   subItems: singleMenuTypes[];
 }
 
+// Define a type for service card items
+export type ServiceCardItem = {
+  image: { src: string };  
+  title: string;
+};
+
+// Update CardProps to include service list
+export type ServiceCardProps = {
+  service_list: ServiceCardItem[];
+  button: {
+    text: string;
+    link: string;
+  };
+};
