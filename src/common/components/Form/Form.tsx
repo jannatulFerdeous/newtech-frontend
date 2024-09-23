@@ -29,7 +29,7 @@ const Form = () => {
         <div className="text-center">
           <button
             type="submit"
-            className="w-full py-3 bg-blue-500  text-white rounded-md text-sm sm:text-lg font-semibold hover:bg-blue-600 focus:outline-none"
+            className="w-full py-3 bg-primary  text-white rounded-md text-sm sm:text-lg font-semibold hover:bg-secondary/95 focus:outline-none"
           >
             Continue
           </button>

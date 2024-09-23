@@ -5,16 +5,16 @@ const GetTouch = () => {
   const { title, description, button } = GetTouch_data;
 
   return (
-    <div className="container bg-blue-50 py-12">
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
-        <div className="ml-16">
+    <div className="container bg-blue-50 py-14  w-full items-center mt-8 ">
+      <div className="grid grid-cols-2 mx-24 items-center gap-28  ">
+        <div className="ml-44">
           <h2 className="text-sm font-semibold text-gray-600 mb-2">{title}</h2>
-          <p className="text-2xl md:text-3xl font-bold text-gray-900">
+          <p className="text-2xl md:text-3xl text-gray-900 mt-4">
             {description}
           </p>
         </div>
-        <div className="mr-16">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-md font-medium">
+        <div className=" text-center">
+          <button className="bg-blue-900  hover:bg-primary text-white px-7 py-4  font-medium">
             {button.text}
           </button>
         </div>
